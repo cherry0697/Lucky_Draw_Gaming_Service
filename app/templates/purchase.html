@@ -1,0 +1,27 @@
+<html>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Purchase Tickets</title>
+      <link rel="stylesheet" type="text/css" href="/static/css/style1.css">
+  </head>
+  <body>
+    <form action="{{url_for('purchase')}}" method="post">
+      <div class="register-box">
+          <h1>BUY TICKET</h1>
+          <div class="textbox">
+            <i class="fas fa-list-ol" aria-hidden="true"></i>
+            <input type="text" placeholder="Enter Ticket Number" name="tic"><br>
+          </div>
+          <div class="textbox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="User Name" name="ads"><br>
+          </div>
+          <div class="textbox">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" name="pas"><br>
+          </div>
+          <input class="btn" type="submit" value="Purchase"><br>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Winners</title>
+      <link rel="stylesheet" type="text/css" href="/static/css/stylee.css">
+  </head>
+  <body>
+    <div class="register-box">
+      <table class="event-table" border="2">
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Prize</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for row in rows %}
+
+          <tr>
+            <td>{{row[1]}}</td>
+            <td>{{row[0]}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+    <form action="/" method="get">
+      <input class="btn" type="submit" value="HOME"><br>
+    </form>
+  </body>
+</html>

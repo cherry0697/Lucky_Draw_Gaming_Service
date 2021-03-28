@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style1.css">
+  </head>
+  <body>
+      <form action="{{url_for('addrec')}}" method="post">
+        <div class="register-box">
+          <h1>New User</h1>
+            <div class="textbox">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <input type="text" placeholder="Name" name="nm"><br>
+            </div>
+          <div class="textbox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="User Name" name="ads"><br>
+          </div>
+          <div class="textbox">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" name="pas"><br>
+          </div>
+          <input class="btn" type="submit" value="Register"><br>
+        </div>
+      </form>
+  </body>
+</html>
