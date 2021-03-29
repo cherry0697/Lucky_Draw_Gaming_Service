@@ -56,7 +56,3 @@ POST - participate_db: [/parevent](http://127.0.0.1:5000/parevent?) + include th
 GET - show_winners: [/winner](http://127.0.0.1:5000/winner?)
 
 GET - show_next_event: [/event](http://127.0.0.1:5000/event?)
-
-Flask Project
------
-This project is a Flask project. [For more information click here](http://flask.pocoo.org/)
