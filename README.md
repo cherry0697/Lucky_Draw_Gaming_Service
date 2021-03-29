@@ -12,7 +12,7 @@ This service calls a local SQLite database. Please see databases directory for m
 Installing Project Dependencies
 -----
 
-If you are on Ubuntu you can install the dependency using the following command:
+You can install the dependency using the following command:
 
 `pip install flask`
 
