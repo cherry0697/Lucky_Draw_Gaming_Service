@@ -9,8 +9,6 @@ and use one lucky draw raffle ticket to participate in a lucky draw game.
 
 This service calls a local SQLite database. Please see databases directory for more details.
 
-This projet was written using PyCharm Community Edition.  
-
 Installing Project Dependencies
 -----
 
@@ -38,7 +36,7 @@ Project Database
 This project uses a local sqlite for a repository.  
 
 
-Rest Api
+Rest API's endpoints
 -----
 
 GET - homepage: [/](http://127.0.0.1:5000/)
